@@ -14,6 +14,11 @@ public class JrqController {
         return "成功返回:"+name;
     }
 
+    @GetMapping("/login")
+    public String login(String name){
+        return "成功登录:"+name;
+    }
+
 
 
 }
