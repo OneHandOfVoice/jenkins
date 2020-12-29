@@ -16,7 +16,7 @@ public class JrqController {
 
     @GetMapping("/login")
     public String login(String name){
-        return "成功登录:"+name;
+        return "成功登录safasdf:"+name;
     }
 
 
